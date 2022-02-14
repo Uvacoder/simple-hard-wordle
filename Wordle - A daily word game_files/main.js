@@ -1689,10 +1689,12 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                                                   a = function(e) {
                                                       return e ? "⬛" : "⬜"
                                                   }(r)
+                                                  break;
                                               case invalid_var:
                                                   a = function(e) {
-                                                      return e ? "🟫" : "🟥"
+                                                      return e ? "🟥" : "🟥"
                                                   }(r)
+                                                  break;
                                           }
                                           d += a
                                       }
